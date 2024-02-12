@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlakDükkaniDATA", "EntityFrameWorkUygulamaSınav\PlakDükkaniDATA.csproj", "{43C3385C-085A-43E6-8F63-30CF9A2AB566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlakDukkaniREPO", "PlakDukkaniREPO\PlakDukkaniREPO.csproj", "{B96B63F9-9928-4B10-A025-7737F08F1746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlakDukkaniREPO", "PlakDukkaniREPO\PlakDukkaniREPO.csproj", "{B96B63F9-9928-4B10-A025-7737F08F1746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlakDukkaniSERVICE", "PlakDukkaniSERVICE\PlakDukkaniSERVICE.csproj", "{C18E0FA4-88F0-4C0A-B268-9C689C3CDE84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlakDukkaniSERVICE", "PlakDukkaniSERVICE\PlakDukkaniSERVICE.csproj", "{C18E0FA4-88F0-4C0A-B268-9C689C3CDE84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlakDukkaniUI", "PlakDukkaniUI\PlakDukkaniUI.csproj", "{9F36930A-FDDB-4842-9C89-830B57AA2FFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlakDukkaniUI", "PlakDukkaniUI\PlakDukkaniUI.csproj", "{9F36930A-FDDB-4842-9C89-830B57AA2FFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlakDükkaniDATA", "PlakDukkaniDATA\PlakDükkaniDATA.csproj", "{713FE9DA-7335-40C6-85AE-5E4570D07888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{43C3385C-085A-43E6-8F63-30CF9A2AB566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43C3385C-085A-43E6-8F63-30CF9A2AB566}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43C3385C-085A-43E6-8F63-30CF9A2AB566}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43C3385C-085A-43E6-8F63-30CF9A2AB566}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B96B63F9-9928-4B10-A025-7737F08F1746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B96B63F9-9928-4B10-A025-7737F08F1746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B96B63F9-9928-4B10-A025-7737F08F1746}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{9F36930A-FDDB-4842-9C89-830B57AA2FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F36930A-FDDB-4842-9C89-830B57AA2FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F36930A-FDDB-4842-9C89-830B57AA2FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713FE9DA-7335-40C6-85AE-5E4570D07888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713FE9DA-7335-40C6-85AE-5E4570D07888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713FE9DA-7335-40C6-85AE-5E4570D07888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713FE9DA-7335-40C6-85AE-5E4570D07888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

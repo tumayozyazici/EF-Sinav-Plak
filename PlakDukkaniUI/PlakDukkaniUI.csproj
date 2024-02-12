@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EntityFrameWorkUygulamaSınav\PlakDükkaniDATA.csproj" />
+    <ProjectReference Include="..\PlakDukkaniDATA\PlakDükkaniDATA.csproj" />
     <ProjectReference Include="..\PlakDukkaniREPO\PlakDukkaniREPO.csproj" />
     <ProjectReference Include="..\PlakDukkaniSERVICE\PlakDukkaniSERVICE.csproj" />
   </ItemGroup>
