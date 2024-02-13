@@ -65,10 +65,13 @@ namespace PlakDukkaniUI
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            Album album = (Album)lst_liste.SelectedItems[0].Tag;
-            albumSERVICE.Update(AlbumOlusturGuncelle(album));
-            MessageBox.Show("Güncellendi!!");
-            HelperClass.Temizle(this.Controls);
+            if (lst_liste.SelectedItems.Count > 0)
+            {
+                Album album = (Album)lst_liste.SelectedItems[0].Tag;
+                albumSERVICE.Update(AlbumOlusturGuncelle(album));
+                MessageBox.Show("Güncellendi!!");
+                HelperClass.Temizle(this.Controls);
+            }
         }
 
         private void Sil_Click(object sender, EventArgs e)
